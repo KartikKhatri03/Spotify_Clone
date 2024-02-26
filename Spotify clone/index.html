@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify – Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="25" class="invert" src="close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img width="110" class="invert" src="logo.svg" alt="">
+                </div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="home">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy
+                                Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+                        <img width="40" class="invert hamburger" src="hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log In</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                                <circle cx="25" cy="25" r="24" fill="#1fdf64" stroke-width="2" />
+                                <g transform="translate(25, 25)">
+                                    <path
+                                        d="M6.8906 0.845947C6.53712 2.18895 4.86674 3.138 1.5257 5.03607C-1.70404 6.87085 -3.3188 7.78842 -4.62017 7.41965C-5.1582 7.26719 -5.64841 6.97762 -6.04376 6.57874C-7 5.61393 -7 3.74262 -7 0C-7 -3.7426 -7 -5.6139 -6.04376 -6.57868C-5.64841 -6.97755 -5.1582 -7.26712 -4.62017 -7.41958C-3.3188 -7.78835 -1.70404 -6.87093 1.5257 -5.03607C4.86674 -3.13803 6.53712 -2.18898 6.8906 -0.845978C7.03652 0.708372 7.03652 1.29163 6.8906 1.84603Z"
+                                        fill="#000000" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="">
+                        <h2>lofi beats</h2>
+                        <p>chill beats, lofi vibes, new tracks every week... </p>
+                    </div>
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                                <circle cx="25" cy="25" r="24" fill="#1fdf64" stroke-width="2" />
+                                <g transform="translate(25, 25)">
+                                    <path
+                                        d="M6.8906 0.845947C6.53712 2.18895 4.86674 3.138 1.5257 5.03607C-1.70404 6.87085 -3.3188 7.78842 -4.62017 7.41965C-5.1582 7.26719 -5.64841 6.97762 -6.04376 6.57874C-7 5.61393 -7 3.74262 -7 0C-7 -3.7426 -7 -5.6139 -6.04376 -6.57868C-5.64841 -6.97755 -5.1582 -7.26712 -4.62017 -7.41958C-3.3188 -7.78835 -1.70404 -6.87093 1.5257 -5.03607C4.86674 -3.13803 6.53712 -2.18898 6.8906 -0.845978C7.03652 0.708372 7.03652 1.29163 6.8906 1.84603Z"
+                                        fill="#000000" />
+                                </g>
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="">
+                        <h2>lofi beats</h2>
+                        <p>chill beats, lofi vibes, new tracks every week... </p>
+                    </div>
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="aboveBar">
+
+                        <div class="songInfo">
+
+                        </div>
+                        <div class="songButtons">
+                            <img width="35" id="previous" src="prevSong.svg" alt="">
+                            <img width="35" id="play" src="play.svg" alt="">
+                            <img width="35" id="next" src="nextSong.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songTime">
+
+                            </div>
+                            <div class="volume">
+                                <img width="25" src="volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
